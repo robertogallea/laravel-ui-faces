@@ -62,21 +62,6 @@ import robertogallea\UIFaces\UIFaces;
         ->getFaces();
 ```
 
-- Instantiating a new `UIFaces` class:
- 
-```
-import robertogallea\UIFaces\UIFaces;
-
-...
-
-    $uifaces = new UIFaces();
-    $faces = $uifaces
-        ->limit(10)
-        ->from_age(18)
-        ->to_age(22)
-        ->getFaces();
-```
-
 UIFaces supports the following parameters:
 - limit
 - offset
